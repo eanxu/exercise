@@ -1,0 +1,260 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "mvt",
+        "title": "mvt",
+        "contact": {
+            "name": "xuyi",
+            "email": "xuyi@diit.cn"
+        },
+        "version": "1.0"
+    },
+    "basePath": "/test",
+    "paths": {
+        "/mvt/{z}/{x}/{y}": {
+            "get": {
+                "description": "mvt",
+                "tags": [
+                    "mvt"
+                ],
+                "summary": "mvt",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "z",
+                        "name": "z",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "type": "integer",
+                        "description": "x",
+                        "name": "x",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "type": "integer",
+                        "description": "y",
+                        "name": "y",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{\"code\":200,\"data\": \"\",\"msg\":\"success\"}",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "type": "integer"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "{\"code\":400,\"data\":{},\"msg\":\"bind query err/params error\"}",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "/orb/{z}/{x}/{y}": {
+            "get": {
+                "description": "orb包 mvt demo",
+                "tags": [
+                    "mvt"
+                ],
+                "summary": "orb",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "z",
+                        "name": "z",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "type": "integer",
+                        "description": "x",
+                        "name": "x",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "type": "integer",
+                        "description": "y",
+                        "name": "y",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{\"code\":200,\"data\": \"\",\"msg\":\"success\"}",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "type": "integer"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "{\"code\":400,\"data\":{},\"msg\":\"bind query err/params error\"}",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "/postgis/{z}/{x}/{y}": {
+            "get": {
+                "description": "postgis mvt",
+                "tags": [
+                    "mvt"
+                ],
+                "summary": "postgis",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "z",
+                        "name": "z",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "type": "integer",
+                        "description": "x",
+                        "name": "x",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "type": "integer",
+                        "description": "y",
+                        "name": "y",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{\"code\":200,\"data\": \"\",\"msg\":\"success\"}",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "type": "integer"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "{\"code\":400,\"data\":{},\"msg\":\"bind query err/params error\"}",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "/pyramid/{z}/{x}/{y}": {
+            "get": {
+                "description": "pyramid",
+                "tags": [
+                    "mvt"
+                ],
+                "summary": "pyramid",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "z",
+                        "name": "z",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "type": "string",
+                        "description": "x",
+                        "name": "x",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "type": "string",
+                        "description": "y",
+                        "name": "y",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{\"code\":200,\"data\": \"\",\"msg\":\"success\"}",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "type": "integer"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "{\"code\":400,\"data\":{},\"msg\":\"bind query err/params error\"}",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "/tegola/{z}/{x}/{y}": {
+            "get": {
+                "description": "tegola mvt",
+                "tags": [
+                    "mvt"
+                ],
+                "summary": "tegola",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "z",
+                        "name": "z",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "type": "integer",
+                        "description": "x",
+                        "name": "x",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "type": "integer",
+                        "description": "y",
+                        "name": "y",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{\"code\":200,\"data\": \"\",\"msg\":\"success\"}",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "type": "integer"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "{\"code\":400,\"data\":{},\"msg\":\"bind query err/params error\"}",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>mvt</title>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.10.0/mapbox-gl.css" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body,
+        #map {
+            height: 100%;
+        }
+
+        .layerPanel {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            background: #ffffff;
+            padding: 5px 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='map'></div>
+    <script>
+        let tdt = true;
+        let layer_geoVt = false;
+        let layer_wmts = false;
+        let curr = '';
+        let center = [116.63, 29.35];
+ //获取地图样式
+        let style = getStyle();
+        mapboxgl.accessToken = "pk.eyJ1IjoiY29kaW5nbWlhbyIsImEiOiJjanh4MjlvNHMwaXppM2NvOGMwdTdkYnluIn0.hXPTIwtl5lj8ro49e3rInA"
+        //创建3857坐标系地图
+        var map = window.map = new mapboxgl.Map({
+            container: 'map',
+            epsg: 'EPSG:3857',
+            center : [116.63, 29.35],
+            zoom:12,
+            hash: true,
+            style: style,
+            fitBoundsOptions: {
+                animate: false,
+            },
+            duration: 0
+        });
+        // map.showTileBoundaries = true;
+        map.on('load', function () {
+            //添加天地图底图
+            addTDTLayers(map);
+            map.addLayer({
+                id: "aaaa",
+                type: "raster",
+                source: "test",
+            })
+        });
+
+        function getStyle() {
+            let style = {
+                "version": 8,
+                "name": "Basic-my",
+                "metadata": {
+                    "mapbox:autocomposite": true,
+                    "mapbox:type": "template"
+                },
+                "center": center,
+                "zoom": 3,
+                "bearing": 0,
+                "pitch": 0,
+                "sources": {
+                    "test": {
+                        "type": "raster",
+                        "tiles": ["http://localhost:7001/png/{z}/{x}/{y}"],
+                        "tileSize": 256,
+                    }
+                },
+                "layers": [],
+                "id": "cj7pjk1qrc3k92so5dn7vp6yc",
+                "draft": false
+            };
+            return style;
+        }
+        //添加3857坐标系天地图
+        function addTDTLayers(map) {
+            //添加3857天地图矢量source
+            var source_vec = {
+                "type": "raster",
+                "tiles": [
+                    "http://t0.tianditu.com/DataServer?T=vec_w&x={x}&y={y}&l={z}&tk=572720117537c631ade4c0a982e1deca",
+                ],
+                "tileSize": 256
+            }
+            if (!map.getSource("TDT_VEC")) {
+                map.addSource("TDT_VEC", source_vec);
+            }
+
+            //添加3857天地图矢量图层
+            var Layer_vec = {
+                "id": "tdtvec",
+                "type": "raster",
+                "source": "TDT_VEC",
+                "minzoom": 0,
+                "maxzoom": 17
+            }
+            if (!map.getLayer("tdtvec")) {
+                map.addLayer(Layer_vec);
+            }
+            //添加3857天地图矢量注记source
+            var source_cva = {
+                "type": "raster",
+                "tiles": [
+                    "http://t0.tianditu.com/DataServer?T=cva_w&x={x}&y={y}&l={z}&tk=572720117537c631ade4c0a982e1deca",
+                ],
+
+                "tileSize": 256
+            }
+            if (!map.getSource("TDT_CVA")) {
+                map.addSource("TDT_CVA", source_cva);
+            }
+            //添加3857天地图矢量注记图层
+            var Layer_cva = {
+                "id": "tdtcva",
+                "type": "raster",
+                "source": "TDT_CVA",
+                "minzoom": 0,
+                "maxzoom": 17
+            }
+            if (!map.getLayer("tdtcva")) {
+                map.addLayer(Layer_cva);
+            }
+        }
+
+    </script>
+</body>
+
+</html>

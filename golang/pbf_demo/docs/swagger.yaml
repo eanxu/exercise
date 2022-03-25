@@ -1,0 +1,175 @@
+basePath: /test
+info:
+  contact:
+    email: xuyi@diit.cn
+    name: xuyi
+  description: mvt
+  title: mvt
+  version: "1.0"
+paths:
+  /mvt/{z}/{x}/{y}:
+    get:
+      description: mvt
+      parameters:
+      - description: z
+        in: path
+        name: z
+        required: true
+        type: integer
+      - description: x
+        in: path
+        name: x
+        required: true
+        type: integer
+      - description: "y"
+        in: path
+        name: "y"
+        required: true
+        type: integer
+      responses:
+        "200":
+          description: '{"code":200,"data": "","msg":"success"}'
+          schema:
+            items:
+              type: integer
+            type: array
+        "400":
+          description: '{"code":400,"data":{},"msg":"bind query err/params error"}'
+          schema:
+            type: string
+      summary: mvt
+      tags:
+      - mvt
+  /orb/{z}/{x}/{y}:
+    get:
+      description: orb包 mvt demo
+      parameters:
+      - description: z
+        in: path
+        name: z
+        required: true
+        type: integer
+      - description: x
+        in: path
+        name: x
+        required: true
+        type: integer
+      - description: "y"
+        in: path
+        name: "y"
+        required: true
+        type: integer
+      responses:
+        "200":
+          description: '{"code":200,"data": "","msg":"success"}'
+          schema:
+            items:
+              type: integer
+            type: array
+        "400":
+          description: '{"code":400,"data":{},"msg":"bind query err/params error"}'
+          schema:
+            type: string
+      summary: orb
+      tags:
+      - mvt
+  /postgis/{z}/{x}/{y}:
+    get:
+      description: postgis mvt
+      parameters:
+      - description: z
+        in: path
+        name: z
+        required: true
+        type: integer
+      - description: x
+        in: path
+        name: x
+        required: true
+        type: integer
+      - description: "y"
+        in: path
+        name: "y"
+        required: true
+        type: integer
+      responses:
+        "200":
+          description: '{"code":200,"data": "","msg":"success"}'
+          schema:
+            items:
+              type: integer
+            type: array
+        "400":
+          description: '{"code":400,"data":{},"msg":"bind query err/params error"}'
+          schema:
+            type: string
+      summary: postgis
+      tags:
+      - mvt
+  /pyramid/{z}/{x}/{y}:
+    get:
+      description: pyramid
+      parameters:
+      - description: z
+        in: path
+        name: z
+        required: true
+        type: string
+      - description: x
+        in: path
+        name: x
+        required: true
+        type: string
+      - description: "y"
+        in: path
+        name: "y"
+        required: true
+        type: string
+      responses:
+        "200":
+          description: '{"code":200,"data": "","msg":"success"}'
+          schema:
+            items:
+              type: integer
+            type: array
+        "400":
+          description: '{"code":400,"data":{},"msg":"bind query err/params error"}'
+          schema:
+            type: string
+      summary: pyramid
+      tags:
+      - mvt
+  /tegola/{z}/{x}/{y}:
+    get:
+      description: tegola mvt
+      parameters:
+      - description: z
+        in: path
+        name: z
+        required: true
+        type: integer
+      - description: x
+        in: path
+        name: x
+        required: true
+        type: integer
+      - description: "y"
+        in: path
+        name: "y"
+        required: true
+        type: integer
+      responses:
+        "200":
+          description: '{"code":200,"data": "","msg":"success"}'
+          schema:
+            items:
+              type: integer
+            type: array
+        "400":
+          description: '{"code":400,"data":{},"msg":"bind query err/params error"}'
+          schema:
+            type: string
+      summary: tegola
+      tags:
+      - mvt
+swagger: "2.0"

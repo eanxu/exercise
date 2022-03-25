@@ -1,0 +1,64 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "mvt",
+        "title": "mvt",
+        "contact": {
+            "name": "xuyi",
+            "email": "xuyi@diit.cn"
+        },
+        "version": "1.0"
+    },
+    "basePath": "/test",
+    "paths": {
+        "/tile/{z}/{x}/{y}": {
+            "get": {
+                "description": "mvt",
+                "tags": [
+                    "mvt"
+                ],
+                "summary": "mvt",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "z",
+                        "name": "z",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "type": "integer",
+                        "description": "x",
+                        "name": "x",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "type": "integer",
+                        "description": "y",
+                        "name": "y",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "{\"code\":200,\"data\": \"\",\"msg\":\"success\"}",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "type": "integer"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "{\"code\":400,\"data\":{},\"msg\":\"bind query err/params error\"}",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

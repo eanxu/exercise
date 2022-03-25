@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "node-schedule": "^2.1.0",
+    "ioredis": "^4.28.5",
+    "request": "^2.88.2"
+  }
+}

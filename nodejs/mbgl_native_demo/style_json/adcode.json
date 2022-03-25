@@ -1,0 +1,20 @@
+{
+  "version": 8,
+  "sources": {
+    "mapbox": {
+      "type": "vector",
+      "tiles": [
+        "http://localhost:8080/test/mvt/6/53/26"
+      ]
+    }
+  },
+  "layers": [
+    {
+      "id": "adcode",
+      "type": "fill",
+      "source": "mapbox",
+      "source-layer": "adcode",
+      "paint": { "fill-color": "#d33046", "fill-outline-color": "#000000" }
+    }
+  ]
+}

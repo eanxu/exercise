@@ -1,0 +1,15 @@
+[general]
+# Log level
+# debug=0, info=1, warning=2, error=3, panic=4, fatal=5
+name = "cuttile_demo/internal/utils_demo"
+releaseMode = true
+log_level = 1
+
+[serviceport]
+http = "0.0.0.0:8080"
+grpc = 9091
+
+[postgresql]
+driverName = "postgresql"
+dsn="postgres://postgres:123456@localhost:5432/test?sslmode=disable"
+

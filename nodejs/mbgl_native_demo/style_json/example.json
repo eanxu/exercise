@@ -1,0 +1,31 @@
+{
+  "version": 8,
+  "name": "Empty",
+  "sources": {
+    "mapbox": {
+      "type": "vector",
+      "maxzoom": 15,
+      "tiles": [
+        "/home/ean/Desktop/code/exercise/nodejs/mbgl_native_demo/tiles/0-0-0.vector.pbf"
+      ]
+    }
+  },
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {
+        "background-color": "white"
+      }
+    },
+    {
+      "id": "water",
+      "type": "fill",
+      "source": "mapbox",
+      "source-layer": "water",
+      "paint": {
+        "fill-color": "blue"
+      }
+    }
+  ]
+}

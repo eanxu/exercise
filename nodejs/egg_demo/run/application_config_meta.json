@@ -1,0 +1,286 @@
+{
+  "keys": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/config/config.default.js",
+  "middleware": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/config/config.default.js",
+  "robot": {
+    "ua": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/config/config.default.js"
+  },
+  "cors": {
+    "origin": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/config/config.default.js",
+    "allowMethods": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-session/config/config.default.js",
+    "key": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-session/config/config.default.js",
+    "logValue": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js",
+      "type": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js",
+      "useSession": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js",
+      "headerName": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js",
+      "queryName": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js",
+      "value": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js",
+      "value": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js",
+      "value": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js",
+      "policy": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-watcher/config/config.default.js",
+      "development": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-schedule/config/config.default.js",
+      "file": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-multipart/config/config.default.js",
+    "files": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-static/config/config.default.js",
+    "dir": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-static/config/config.default.js",
+    "preload": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-static/config/config.default.js",
+    "buffer": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-view/config/config.default.js",
+    "cache": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-view/config/config.default.js",
+    "mapping": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-view/config/config.default.js"
+  },
+  "validate": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg-validate/config/config.default.js",
+  "env": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+  "name": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+  "cookies": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+  "proxy": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "version": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "description": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "main": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "dev": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js"
+    },
+    "author": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "license": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "@mapbox/mapbox-gl-native": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+      "egg": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+      "egg-cors": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+      "egg-router-plus": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+      "egg-validate": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+      "moment": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+      "request": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+      "sharp": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+  "HOME": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+  "rundir": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "notFound": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "sitefile": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "middlewares": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "httpClient": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "encoding": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "formLimit": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "textLimit": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "strict": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+      "depth": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "encoding": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "env": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "level": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "outputJSON": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "buffer": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "appLogName": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "coreLogName": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "agentLogName": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "errorLogName": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+      "maxSockets": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+      "maxSockets": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "logging": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+      "port": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+      "hostname": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/home/ean/Desktop/code/exercise/nodejs/egg_demo/node_modules/egg/config/config.default.js"
+}

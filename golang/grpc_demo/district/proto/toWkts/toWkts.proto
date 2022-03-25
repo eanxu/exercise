@@ -1,0 +1,17 @@
+syntax="proto3";
+
+package toWkts;
+
+message GetWktsRequest {
+  string code = 1;
+  string wkt = 2;  // 根据wkt返回县wkt及县编码，以及相应的市wkt与市编码
+}
+
+message GetWktsResponse {
+  int32 code = 1;
+  string path = 2;
+}
+
+service GetWktsService {
+  rpc GetWkts(GetWktsRequest) returns (GetWktsResponse) {}
+}

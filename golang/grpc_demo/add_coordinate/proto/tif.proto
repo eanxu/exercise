@@ -1,0 +1,52 @@
+syntax="proto3";
+
+package tif;
+
+message Hdf{
+    string hdf = 1;
+    string xml = 2;
+}
+
+message Outfile{
+    string res = 1;
+}
+
+message Infile{
+    string path = 1;
+    int32 width = 2;
+    int32 height = 3;
+}
+
+message Hj{
+    repeated string tifs = 1;
+}
+
+
+service ThumbImage{
+    rpc Thumb(Infile) returns (Outfile) {}
+}
+
+service SwitchImage{
+    rpc Hdf2Tif(Hdf) returns (Outfile) {}
+}
+
+service CombineImage{
+    rpc HjTifs(Hj) returns (Outfile) {}
+}
+
+message AddCoordinateRequest{
+    string tiff = 1;  // 影像绝对路径
+    string xml = 2;   // 影像对应的xml文件
+}
+
+message AddCoordinateResponse{
+    bool ok = 1;       // 成功 true， 失败 fail
+    string wkt = 2;    // 影像外边框，
+    int32 srid = 3;    // 坐标系，
+    int32 bands = 4;   // 波段数，
+    int32 res = 5;     // 分辨率，
+}
+
+service AddCoordinateService{
+    rpc AddCoordinate(AddCoordinateRequest) returns (AddCoordinateResponse) {}
+}
